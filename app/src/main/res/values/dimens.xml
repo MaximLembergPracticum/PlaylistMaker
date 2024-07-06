@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="primary_text_size">22sp</dimen>
+    <dimen name="icon_to_text_distance">8dp</dimen>
+    <dimen name="corner_radius">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="padding_head_from_top">14dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="settings_element_height">61dp</dimen>
+</resources>

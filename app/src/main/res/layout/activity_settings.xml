@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/arrow_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_marginBottom="24dp"
+        app:navigationIcon="@drawable/back_arrow_ic"
+        app:title="Назад"
+        style="@style/toolbar_settings_layout_style"/>
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_element_height">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_settings_text"
+            style="@style/settings_layout_style" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="false"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_element_height"
+        android:text="@string/app_share_app_text"
+        app:drawableRightCompat="@drawable/share_ic"
+        style="@style/settings_layout_style" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_element_height"
+        android:text="@string/app_mail_support_text"
+        app:drawableRightCompat="@drawable/support_ic"
+        style="@style/settings_layout_style" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_element_height"
+        android:text="@string/app_user_rules_text"
+        app:drawableRightCompat="@drawable/forward_arrow_ic"
+        style="@style/settings_layout_style" />
+
+</LinearLayout>
