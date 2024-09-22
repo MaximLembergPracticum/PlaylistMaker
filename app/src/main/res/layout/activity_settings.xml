@@ -9,15 +9,15 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/arrow_back_button"
+        style="@style/toolbar_settings_layout_style"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_height"
         android:layout_marginBottom="24dp"
         app:navigationIcon="@drawable/back_arrow_ic"
-        app:title="Назад"
-        style="@style/toolbar_settings_layout_style"/>
+        app:title="Настройки" />
 
     <LinearLayout
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="28dp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/settings_element_height">
 
@@ -25,7 +25,7 @@
         <TextView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="@string/app_settings_text"
+            android:text="@string/app_dark_theme_text"
             style="@style/settings_layout_style" />
 
         <Switch
